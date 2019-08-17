@@ -27,7 +27,7 @@ class hparams:
 
     # mel滤波器上下限制
     num_mels = 160
-    num_freq = 2049  # (= n_fft / 2 + 1) 傅里叶变换是双边，只去前一半部分
+    num_freq = 2049  # (= n_fft / 2 + 1) 傅里叶变换是双边，只取前一半部分
     fmax = 7600
     fmin = 125
     min_level_db = -120
